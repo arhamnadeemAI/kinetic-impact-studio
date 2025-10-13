@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Kinetic Web Labs - Professional Web Development Agency
 
 ## Project info
 
