@@ -103,19 +103,19 @@ const Footer = () => {
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="w-4 h-4" />
                 <a
-                  href="mailto:hello@kineticweblabs.com"
+                  href="mailto:nexoriatech@gmail.com"
                   className="hover:text-primary transition-smooth"
                 >
-                  hello@kineticweblabs.com
+                  nexoriatech@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="w-4 h-4" />
                 <a
-                  href="tel:+923204516454"
+                  href="tel:+923407287965"
                   className="hover:text-primary transition-smooth"
                 >
-                  +92 320 4516454
+                  +92 340 7287965
                 </a>
               </li>
             </ul>

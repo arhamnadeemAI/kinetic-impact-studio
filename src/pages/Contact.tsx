@@ -64,10 +64,10 @@ const Contact = () => {
                     Send us an email anytime
                   </p>
                   <a
-                    href="mailto:hello@kineticweblabs.com"
+                    href="mailto:nexoriatech@gmail.com"
                     className="text-primary hover:underline"
                   >
-                    hello@kineticweblabs.com
+                    nexoriatech@gmail.com
                   </a>
                 </CardContent>
               </Card>
@@ -84,10 +84,10 @@ const Contact = () => {
                     Available Mon-Fri, 9am-6pm PKT
                   </p>
                   <a
-                    href="tel:+923204516454"
+                    href="tel:+923407287965"
                     className="text-primary hover:underline"
                   >
-                    +92 320 4516454
+                    +92 340 7287965
                   </a>
                 </CardContent>
               </Card>
