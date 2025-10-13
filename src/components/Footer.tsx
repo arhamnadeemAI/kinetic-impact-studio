@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Code2, Mail, Phone, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, Twitter } from "lucide-react";
+import nexoriaLogo from "@/assets/nexoria-logo.jpg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,11 +12,13 @@ const Footer = () => {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg gradient-hero flex items-center justify-center">
-                <Code2 className="w-6 h-6 text-primary-foreground" />
-              </div>
+              <img 
+                src={nexoriaLogo} 
+                alt="NexoriaTech Logo" 
+                className="w-10 h-10 rounded-lg"
+              />
               <span className="font-display font-bold text-xl">
-                Kinetic Web Labs
+                NexoriaTech
               </span>
             </Link>
             <p className="text-muted-foreground mb-4 max-w-md">
@@ -121,7 +124,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border text-center text-muted-foreground text-sm">
-          <p>© {currentYear} Kinetic Web Labs. All rights reserved.</p>
+          <p>© {currentYear} NexoriaTech. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -59,7 +59,7 @@ const About = () => {
       <section className="py-20 gradient-hero">
         <div className="container mx-auto px-4 sm:px-6 text-center">
           <h1 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-white mb-6">
-            About Kinetic Web Labs
+            About NexoriaTech
           </h1>
           <p className="text-xl text-white/90 max-w-3xl mx-auto">
             We're a passionate team of developers and designers crafting
@@ -77,7 +77,7 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Founded in the heart of Lahore, Pakistan, Kinetic Web Labs was
+                Founded in the heart of Lahore, Pakistan, NexoriaTech was
                 born from a simple idea: businesses deserve websites and
                 applications that are as dynamic and ambitious as they are.
               </p>

@@ -1,4 +1,4 @@
-# Kinetic Web Labs - Professional Web Development Agency
+# NexoriaTech - Professional Web Development Agency
 
 ## Project info
 

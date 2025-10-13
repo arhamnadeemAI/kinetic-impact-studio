@@ -216,7 +216,7 @@ const Contact = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Kinetic Web Labs Location"
+                title="NexoriaTech Location"
               ></iframe>
             </CardContent>
           </Card>

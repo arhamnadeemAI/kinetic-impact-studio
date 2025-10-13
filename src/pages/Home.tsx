@@ -40,7 +40,7 @@ const Home = () => {
       name: "Sarah Johnson",
       role: "CEO, TechStart Inc",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
-      text: "Kinetic Web Labs transformed our online presence completely. The new website has increased our conversions by 150%. Highly recommended!",
+      text: "NexoriaTech transformed our online presence completely. The new website has increased our conversions by 150%. Highly recommended!",
     },
     {
       name: "Michael Chen",

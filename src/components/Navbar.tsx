@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Code2 } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import nexoriaLogo from "@/assets/nexoria-logo.jpg";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,11 +36,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-lg gradient-hero flex items-center justify-center transition-smooth group-hover:scale-110">
-              <Code2 className="w-6 h-6 text-primary-foreground" />
-            </div>
+            <img 
+              src={nexoriaLogo} 
+              alt="NexoriaTech Logo" 
+              className="w-10 h-10 rounded-lg transition-smooth group-hover:scale-110"
+            />
             <span className="font-display font-bold text-xl md:text-2xl">
-              Kinetic Web Labs
+              NexoriaTech
             </span>
           </Link>
 
